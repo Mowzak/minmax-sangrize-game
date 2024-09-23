@@ -51,7 +51,7 @@ def minmax(board,turn,de,st):
             
         return score
         
-q=[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]
+q=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]
 for i in avaliable(q):
     q[i]=1
     s = minmax(q,2,0,"")
